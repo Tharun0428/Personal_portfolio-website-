@@ -1,0 +1,40 @@
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #0d1b2a;
+    color: #f8f9fa;
+}
+h1, h2, h3, h4, h5 {
+    font-family: 'Playfair Display', serif;
+    color: #f5c518;
+}
+a {
+    color: #f5c518;
+    transition: color 0.3s ease;
+}
+a:hover {
+    color: #ffd700;
+}
+.sidebar, .content-card, .navbar, .form-input {
+    background-color: #1b263b;
+    border-radius: 10px;
+}
+button, .form-btn {
+    background-color: #f5c518;
+    color: #0d1b2a;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+button:hover, .form-btn:hover {
+    background-color: #ffd700;
+    transform: scale(1.05);
+}
+.project-img img {
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+.project-img:hover img {
+    transform: scale(1.05);
+}
